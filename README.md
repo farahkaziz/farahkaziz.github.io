@@ -1,19 +1,53 @@
-# Farah Kazziz Portfolio
+# Farah Kaziz — Personal Portfolio
 
-A static personal portfolio for Farah Kazziz, a Software Engineering student and developer at ISIMM — Universite de Monastir. The site is designed as an evolving personal space for projects, skills, learning and future experience.
+Welcome to my personal portfolio website, where I showcase my projects, technical skills, education, and experiences as a Software Engineering student.
 
-## Run locally
+## 🌐 Live Portfolio
 
-Open `index.html` directly in a browser. No build step or dependency installation is required.
+**[farahkaziz.github.io](https://farahkaziz.github.io)**
 
-The requested profile photo can be added at `assets/images/profile.jpg`; the current placeholder remains in place until a photo is supplied. The project list in `index.html` uses independent blocks, so a new project can be added by duplicating one `project-item` and updating its content. Optional project fields include a note, contribution list, status or image when relevant.
+## 🛠️ Technologies
 
-## Contact form
+* HTML5
+* CSS3
+* JavaScript
+* Git & GitHub
 
-The form uses a Formspree-compatible action placeholder. Replace `your-form-id` in `index.html` with a real Formspree form ID before deployment. The form currently validates fields in the browser only.
+## 📌 Highlights
 
-## Production
+* Responsive and modern portfolio website
+* Personal projects and academic work
+* Technical skills and experience
+* Downloadable CV
+* Contact section
 
-For a small static site, deployment to GitHub Pages can use the repository root directly. For a minified release, run a tool such as `npx clean-css-cli -o css/style.min.css css/style.css` and `npx terser js/script.js -o js/script.min.js`, then update the stylesheet and script references in `index.html`. Keep readable source files in version control.
+## 👩‍💻 About Me
 
-External resources are limited to Google Fonts. The site remains functional without them using the local fallback fonts.
+I am a third-year Software Engineering student interested in **Web Development, Software Engineering, Artificial Intelligence, and Cybersecurity**.
+
+I enjoy building practical projects, learning new technologies, and continuously improving my technical skills.
+
+## 📁 Project Structure
+
+```text
+PortfolioWebsite/
+├── assets/
+├── css/
+├── js/
+├── index.html
+├── README.md
+└── SECURITY.md
+```
+
+## 📄 CV
+
+My latest CV is available through the portfolio website.
+
+## 📬 Contact
+
+For professional opportunities, collaborations, or projects, please visit my portfolio and use the contact section.
+
+---
+
+© 2026 **Farah Kaziz**
+Built with HTML, CSS & JavaScript.
