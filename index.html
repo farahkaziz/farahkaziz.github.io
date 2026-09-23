@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Farah Kazziz, a Software Engineering student and developer at ISIMM.">
+  <title>Farah Kazziz | Software Engineering Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="wordmark" href="#top" aria-label="Farah Kazziz home">Farah <span>Kazziz</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="site-menu" id="site-menu">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+        <span class="theme-icon" aria-hidden="true">&#9790;</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Portfolio / 2026</p>
+        <h1 id="hero-title">Farah Kazziz</h1>
+        <p class="hero-role">Software Engineering Student<br><em>&amp; Developer</em></p>
+        <p class="hero-intro">I build practical software projects while developing my skills in programming, web development and software engineering.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">&#8599;</span></a>
+          <a class="button button-text" href="assets/images/Farah_Kazziz_CV%20%282%29.pdf" download aria-label="Download Farah Kazziz CV">Download CV <span aria-hidden="true">&#8595;</span></a>
+        </div>
+      </div>
+      <div class="profile-frame reveal">
+        <div class="profile-art">
+          <img src="assets/images/Farah.png" alt="Portrait of Farah Kazziz">
+        </div>
+        <p class="photo-note">Profile photo</p>
+        <div class="profile-caption">ISIMM<br>Universite de Monastir</div>
+      </div>
+    </section>
+
+    <div class="section-rule container" aria-hidden="true"></div>
+
+    <section class="intro-band container reveal" id="about" aria-labelledby="about-title">
+      <p class="section-index">01 / About</p>
+      <div class="intro-content">
+        <h2 id="about-title">Learning by building<br><em>useful things.</em></h2>
+        <div class="intro-text">
+          <p>I am a 3rd-year Licence Génie Logiciel student at ISIMM — Université de Monastir. My academic and personal projects have helped me explore software development, web technologies and the foundations behind practical applications.</p>
+          <p>I am continuously learning through real applications, technical experiments and the process of turning ideas into working software.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section section-tint" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-index">02 / Selected work</p>
+          <h2 id="projects-title">Projects with a<br><em>purpose.</em></h2>
+          <p class="section-lede">A selection of academic and personal work. Each one has been a way to understand a little more about how software becomes useful.</p>
+        </div>
+        <!-- To add a project, duplicate one project-item and update its number, details, tags and links. Optional fields include project-note, contribution and project-status. -->
+        <div class="projects-list">
+          <article class="project-item reveal">
+            <div class="project-number">01</div>
+            <div class="project-main">
+              <div class="project-meta"><span>Personal learning project</span><span>Full-stack exploration</span></div>
+              <h3>CareerMate <small>Career &amp; Skill Assistant</small></h3>
+              <p>CareerMate is a learning-focused full-stack application designed to help students explore career paths, understand required skills and discover relevant job opportunities.</p>
+              <p class="project-note">Built to strengthen my understanding of full-stack development, REST APIs, databases and external API integration.</p>
+              <div class="tag-list" aria-label="Technologies used"><span>React</span><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>External APIs</span></div>
+              <div class="project-links"><a href="https://github.com/farahkaziz/CareerMate" target="_blank" rel="noreferrer" aria-label="CareerMate GitHub repository">GitHub <span aria-hidden="true">&#8599;</span></a><a href="https://careermate-frontend-ay4s.onrender.com/" target="_blank" rel="noreferrer" aria-label="CareerMate live demo">Live demo <span aria-hidden="true">&#8599;</span></a></div>
+            </div>
+          </article>
+
+          <article class="project-item reveal">
+            <div class="project-number">02</div>
+            <div class="project-main">
+              <div class="project-meta"><span>Academic group project</span><span>Career platform</span></div>
+              <h3>FutureLink <small>Student &amp; Graduate Career Platform</small></h3>
+              <p>A career platform designed for students and young graduates, including CV analysis, skill-gap analysis, job-related features and dashboards.</p>
+              <div class="contribution"><strong>My contributions</strong><ul><li>Market research</li><li>Idea development</li><li>CV Analysis</li><li>Skill Gap Analysis</li></ul></div>
+              <div class="tag-list" aria-label="Technologies used"><span>React</span><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>Ollama</span></div>
+            </div>
+          </article>
+
+          <article class="project-item reveal">
+            <div class="project-number">03</div>
+            <div class="project-main">
+              <div class="project-meta"><span>Academic group project</span><span>Student organization</span></div>
+              <h3>StudyMate <small>Student Organization Platform</small></h3>
+              <p>A student organization platform designed to help students manage subjects, study sessions, progress and exam planning.</p>
+              <div class="contribution"><strong>My contributions</strong><ul><li>Market research</li><li>Idea selection</li><li>Project planning</li><li>Concept definition</li></ul></div>
+              <div class="tag-list" aria-label="Technologies used"><span>Web technologies</span><span>SQLite</span></div>
+              <div class="project-links"><a href="https://github.com/farahkaziz/StudyMate" target="_blank" rel="noreferrer" aria-label="StudyMate GitHub repository">GitHub <span aria-hidden="true">&#8599;</span></a><a href="https://farahkaziz.github.io/StudyMate/" target="_blank" rel="noreferrer" aria-label="StudyMate live demo">Live demo <span aria-hidden="true">&#8599;</span></a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section container" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading reveal">
+        <p class="section-index">03 / Technical skills</p>
+        <h2 id="skills-title">A foundation in<br><em>progress.</em></h2>
+      </div>
+      <div class="skills-layout reveal">
+        <div class="skill-group core-skills"><h3>Core technical skills</h3><div class="skill-columns"><div><span>Programming languages</span><p>Java<br>Python<br>C / C++<br>JavaScript<br>PHP</p></div><div><span>Web &amp; data</span><p>HTML<br>CSS<br>SQL</p></div><div><span>Tools</span><p>Git<br>GitHub</p></div></div></div>
+        <div class="skill-group secondary-skills"><h3>Technologies I have worked with</h3><div class="secondary-tags"><span>React</span><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>SQLite</span><span>REST APIs</span><span>Ollama</span></div><p>These are technologies I have explored through projects and learning.</p></div>
+      </div>
+    </section>
+
+    <section class="experience-section section-tint" id="experience" aria-labelledby="experience-title">
+      <div class="container split-section">
+        <div class="section-heading reveal"><p class="section-index">04 / Experience &amp; activities</p><h2 id="experience-title">Past experiences<br><em>and activities.</em></h2></div>
+        <div class="timeline reveal">
+          <article class="timeline-item"><div class="timeline-date">Past experience</div><div><h3>Microsoft Technical Club</h3><p class="role-label">Logistics &amp; Event Planning</p><ul><li>Event planning</li><li>Logistics coordination</li><li>Team collaboration</li><li>Communication with participants</li></ul></div></article>
+          <article class="timeline-item"><div class="timeline-date">2025</div><div><h3>SOS Children's Village</h3><p class="role-label">Ambassador — past activity</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-section container" id="education" aria-labelledby="education-title">
+      <div class="section-heading reveal"><p class="section-index">05 / Education</p><h2 id="education-title">The work<br><em>continues.</em></h2></div>
+      <div class="education-list reveal">
+        <article><span class="education-year">2024—2027</span><div><h3>Licence Génie Logiciel</h3><p>ISIMM — Université de Monastir</p></div></article>
+        <article><span class="education-year">2024</span><div><h3>Baccalauréat Sciences Expérimentales</h3></div></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-layout">
+        <div class="contact-copy reveal"><p class="section-index">06 / Contact</p><h2 id="contact-title">Let's talk about<br><em>the next project.</em></h2><p>For questions, collaborations and software opportunities, you can reach me through the contact form.</p></div>
+        <form class="contact-form reveal" action="https://formspree.io/f/mpwleozv" method="POST" novalidate><div class="form-field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error"><small class="error-message" id="name-error"></small></div><div class="form-field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error"><small class="error-message" id="email-error"></small></div><div class="form-field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea><small class="error-message" id="message-error"></small></div><button class="button button-primary" type="submit">Send message <span aria-hidden="true">&#8599;</span></button><p class="form-status" role="status" aria-live="polite"></p></form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><p>&copy; 2026 Farah Kazziz</p><div class="footer-links"><a href="mailto:farahkaziz71@gmail.com" aria-label="Email Farah Kazziz" title="Email"><span aria-hidden="true">&#9993;</span></a><a href="https://www.linkedin.com/in/farahkaziz" target="_blank" rel="noreferrer" aria-label="Farah Kazziz on LinkedIn" title="LinkedIn"><span aria-hidden="true">in</span></a><a href="https://github.com/farahkaziz" target="_blank" rel="noreferrer" aria-label="Farah Kazziz on GitHub" title="GitHub"><span aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.809 1.304 3.495.997.108-.776.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12z" /></svg></span></a></div></div></footer>
+  <a class="back-to-top" href="#top" aria-label="Back to top">&#8593;</a>
+</body>
+</html>
