@@ -1,25 +1,25 @@
-# Farah Kaziz — Personal Portfolio
+# Farah Kazziz — Personal Portfolio
 
 Welcome to my personal portfolio website, where I showcase my projects, technical skills, education, and experiences as a Software Engineering student.
 
 ## 🌐 Live Portfolio
 
-**[farahkaziz.github.io](https://farahkaziz.github.io)**
+[farahkaziz.github.io](https://farahkaziz.github.io)
 
 ## 🛠️ Technologies
 
-* HTML5
-* CSS3
-* JavaScript
-* Git & GitHub
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
 
 ## 📌 Highlights
 
-* Responsive and modern portfolio website
-* Personal projects and academic work
-* Technical skills and experience
-* Downloadable CV
-* Contact section
+- Responsive and modern portfolio website
+- Personal projects and academic work
+- Technical skills and experience
+- Downloadable CV
+- Contact section
 
 ## 👩‍💻 About Me
 
@@ -37,17 +37,3 @@ PortfolioWebsite/
 ├── index.html
 ├── README.md
 └── SECURITY.md
-```
-
-## 📄 CV
-
-My latest CV is available through the portfolio website.
-
-## 📬 Contact
-
-For professional opportunities, collaborations, or projects, please visit my portfolio and use the contact section.
-
----
-
-© 2026 **Farah Kaziz**
-Built with HTML, CSS & JavaScript.
